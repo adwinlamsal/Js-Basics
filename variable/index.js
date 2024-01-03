@@ -1,14 +1,15 @@
-console.log("hello woerld")
+const name = prompt("Enter your name")
 
 
-let personName="Krishna";
+if(name==="Balkrishna Lamsal"){
+
+console.log("Welcome admin")
+alert("Welcome admin")
+
+}else{
+
+console.log("Welcome Guest")
+alert("Welcome Guest")
 
 
-console.log(personName);
-
-
-let krishna = Number(prompt("What is your birth year"))
-
-const value = 2024-krishna
-
-console.log(value)
+}
