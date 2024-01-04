@@ -1,3 +1,5 @@
+/*If else Statement */
+
 // const name = (prompt("Enter your name"))
 
 // if(name==="Balkrishna Lamsal"){
@@ -11,6 +13,8 @@
 // alert("Welcome Guest")
 
 // }
+
+/**  Switch Case Practice */
 
 // const number = Number(prompt("Enter number between 1 to 7"));
 // switch (number) {
@@ -39,3 +43,14 @@
 //   default:
 //     console.log("Invalid");
 // }
+
+for (let i = 1; i <= 10; i++) {
+  console.log("3*" + i + "=" + 3 * i);
+}
+
+let i = 0;
+
+while (i <= 100) {
+  console.log(i);
+  i = i + 2;
+}
