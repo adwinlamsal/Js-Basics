@@ -53,18 +53,28 @@
 //   i = i + 2;
 // }
 
-function Area(a) {
-  console.log("The are of given length is " + a * a);
+// function Area(a) {
+//   console.log("The are of given length is " + a * a);
+// }
+
+// Area(5);
+
+// function personName(firstName, middleName, lastNAme) {
+//   let fullName = `${(firstName + middleName, lastNAme)}`;
+
+//   return fullName;
+// }
+
+// let resultName = personName("bal", "krishna", "lamsal");
+
+function longestWord(a, b, c) {
+  // if(a.length>b.length || )
+
+  a.length > b.length
+    ? console.log(a)
+    : b.length > c.length
+    ? console.log(b)
+    : console.log(c);
 }
 
-Area(5);
-
-function personName(firstName, middleName, lastNAme) {
-  let fullName = `${(firstName + middleName, lastNAme)}`;
-
-  return fullName;
-}
-
-let resultname = personName("bal", "krishna", "lamsal");
-
-console.log(resultname);
+longestWord("Apple", "badasfsafsdf", "asdfsdfasfasfasfdsf", "Dog");
