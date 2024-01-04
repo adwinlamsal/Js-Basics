@@ -11,7 +11,6 @@
 
 // console.log("Welcome Guest")
 // alert("Welcome Guest")
-
 // }
 
 /**  Switch Case Practice */
@@ -44,13 +43,28 @@
 //     console.log("Invalid");
 // }
 
-for (let i = 1; i <= 10; i++) {
-  console.log("3*" + i + "=" + 3 * i);
+// for (let i = 1; i <= 10; i++) {
+//   console.log("3*" + i + "=" + 3 * i);
+// }
+
+// let i = 0;
+// while (i <= 100) {
+//   console.log(i);
+//   i = i + 2;
+// }
+
+function Area(a) {
+  console.log("The are of given length is " + a * a);
 }
 
-let i = 0;
+Area(5);
 
-while (i <= 100) {
-  console.log(i);
-  i = i + 2;
+function personName(firstName, middleName, lastNAme) {
+  let fullName = `${(firstName + middleName, lastNAme)}`;
+
+  return fullName;
 }
+
+let resultname = personName("bal", "krishna", "lamsal");
+
+console.log(resultname);
