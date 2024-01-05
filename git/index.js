@@ -67,14 +67,24 @@
 
 // let resultName = personName("bal", "krishna", "lamsal");
 
-function longestWord(a, b, c) {
-  // if(a.length>b.length || )
+// Write a program to find a longest word among given paramaters.
 
-  a.length > b.length
-    ? console.log(a)
-    : b.length > c.length
-    ? console.log(b)
-    : console.log(c);
+// function longestWord(a, b, c) {
+//   // if(a.length>b.length || )
+
+//   a.length > b.length
+//     ? console.log(a)
+//     : b.length > c.length
+//     ? console.log(b)
+//     : console.log(c);
+// }
+
+// longestWord("Apple", "badasfsafsdf", "asdfsdfasfasfasfdsf", "Dog");
+
+let a = "krishna";
+
+function Upper(apple) {
+  console.log(apple.toUpperCase());
 }
 
-longestWord("Apple", "badasfsafsdf", "asdfsdfasfasfasfdsf", "Dog");
+Upper(a);
