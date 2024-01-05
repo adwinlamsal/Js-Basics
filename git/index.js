@@ -81,10 +81,72 @@
 
 // longestWord("Apple", "badasfsafsdf", "asdfsdfasfasfasfdsf", "Dog");
 
-let a = "krishna";
+// let a = "krishna";
 
-function Upper(apple) {
-  console.log(apple.toUpperCase());
-}
+// const sum = (apple) => console.log(apple.toUpperCase());
 
-Upper(a);
+// Upper(a);
+
+//IIFES
+
+//Run Immedietley without calling;
+
+// (
+//   function (){
+// }
+
+// )();
+
+//Closers
+
+//Cannot be changed;
+
+// I cannot change while passing through parameter
+
+// function krishna()
+// {
+
+// let password = "Krishna"
+
+// }
+
+//defalut function
+
+// const pagination = (page, limit) => {
+//   console.log(page, limit);
+// };
+
+// pagination(2, 10);
+
+// const admin = (name,role="Guest") => {
+//   if (name == "Krishna") {
+//     console, console.log("You are admin");
+//   } else {
+//     console.log(role);
+//   }
+// };
+
+// admin();
+
+const multiply = (number, defalut = 5) => {
+  if (number == null) {
+    i = 1;
+    for (i; i <= 10; i++) {
+      console.log(`${defalut + "*" + i + "=" + defalut * i}`);
+    }
+  } else {
+    i = 1;
+    for (i; i <= 10; i++) {
+      console.log(`${number * i + "=" + number * i}`);
+    }
+  }
+};
+
+multiply();
+
+CI = () => {};
+
+const compoundInterest =
+  principal * Math.pow(1 + R / numberofyear, Numberofyear * T);
+
+// WEb scraping
