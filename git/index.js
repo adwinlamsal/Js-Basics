@@ -128,25 +128,69 @@
 
 // admin();
 
-const multiply = (number, defalut = 5) => {
-  if (number == null) {
-    i = 1;
-    for (i; i <= 10; i++) {
-      console.log(`${defalut + "*" + i + "=" + defalut * i}`);
-    }
-  } else {
-    i = 1;
-    for (i; i <= 10; i++) {
-      console.log(`${number * i + "=" + number * i}`);
+// const multiply = (number, defalut = 5) => {
+//   if (number == null) {
+//     i = 1;
+//     for (i; i <= 10; i++) {
+//       console.log(`${defalut + "*" + i + "=" + defalut * i}`);
+//     }
+//   } else {
+//     i = 1;
+//     for (i; i <= 10; i++) {
+//       console.log(`${number * i + "=" + number * i}`);
+//     }
+//   }
+// };
+
+// multiply();
+
+// CI = () => {};
+
+// const compoundInterest =
+//   principal * Math.pow(1 + R / numberofyear, Numberofyear * T);
+
+
+
+
+ // WEb scraping
+
+//Snippig data from website
+
+//Ecma Script
+
+//ES6  arrowfunction
+
+
+
+// Objects //
+
+
+
+const Sample = (a) => {
+  let nonRepeated = "";
+
+  for (let i = 0; i < a.length; i++) {
+    if (a.indexOf(a[i]) === a.lastIndexOf(a[i])) {
+      nonRepeated += a[i];
     }
   }
+
+  console.log(nonRepeated);
 };
 
-multiply();
+const a = "abacddbec";
+Sample(a);
 
-CI = () => {};
 
-const compoundInterest =
-  principal * Math.pow(1 + R / numberofyear, Numberofyear * T);
+// const krishna=(a)=>{
 
-// WEb scraping
+// console.log(a.split(''));
+
+
+// }
+
+// let a = "Apple"
+
+// krishna(a);
+
+
