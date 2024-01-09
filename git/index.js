@@ -166,20 +166,20 @@
 
 
 
-const Sample = (a) => {
-  let nonRepeated = "";
+// const Sample = (a) => {
+//   let nonRepeated = "";
 
-  for (let i = 0; i < a.length; i++) {
-    if (a.indexOf(a[i]) === a.lastIndexOf(a[i])) {
-      nonRepeated += a[i];
-    }
-  }
+//   for (let i = 0; i < a.length; i++) {
+//     if (a.indexOf(a[i]) === a.lastIndexOf(a[i])) {
+//       nonRepeated += a[i];
+//     }
+//   }
 
-  console.log(nonRepeated);
-};
+//   console.log(nonRepeated);
+// };
 
-const a = "abacddbec";
-Sample(a);
+// const a = "abacddbec";
+// Sample(a);
 
 
 // const krishna=(a)=>{
@@ -192,5 +192,83 @@ Sample(a);
 // let a = "Apple"
 
 // krishna(a);
+
+
+
+
+
+//Object
+
+
+
+
+/// this keyword is use on Local function / and can use only on es5
+
+
+
+const person = {
+  name:"Krishna",
+  age:1992,
+  getAge:function (){
+
+   let newage = 2080 - this.age;
+
+   return newage;
+  }
+}
+
+
+// console.log(person.getAge());
+
+
+
+
+
+
+
+// when we use this keyword on arrow fuction it calls globally
+
+
+const newperson = {
+    name:"Krishna",
+    age:1992,
+    getAge: ()=>{
+  
+     let newage = 2080 - newperson.age;
+  
+     return newage;
+    }
+  }
+  
+  
+  
+  
+//   console.log(newperson.getAge());
+
+
+
+
+// console.log(newperson.age=1966)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
