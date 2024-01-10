@@ -248,6 +248,13 @@ const newperson = {
 
 
 
+delete newperson.age;
+
+
+
+newperson.age="";
+
+
 // console.log(newperson.age=1966)
 
 
