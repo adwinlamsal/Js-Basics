@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <h2>Student Signup Form:</h2>
+<body>
+    <form onsubmit="return false">
+
+        <label>Enter your Name:</label>
+        <input type="text" placeholder="enter your fullname" />
+        <br /><br />
+        <label>Fathers Name:</label>
+        <input type="text" />
+        <br /><br />
+        <label>Mothers Name:</label>
+        <input type="text" />
+        <br /><br />
+        <label>Contact Number:</label>
+        <input type="number" />
+        <br /><br />
+        <label>Email:</label>
+        <input type="text" placeholder="sample@gmail.com" />
+        <br /><br />
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male" />male
+        <input type="radio" name="gender" value="female" />female
+   
+        <br>
+   
+        <label>select your college:</label>
+        <select  id="selected">
+          <option value="college">College</option>
+          <option value="NCIT">NCIT</option>
+          <option value="Lumbini">Lumbini enginnering College</option>
+          <option value="himalayan">Himalayan</option>
+        </select>
+        <br /><br />
+        <label>Date of birth:</label>
+        <input type="date" id="birthday" name="birthday" />
+        <br /><br />
+        <input type="submit" onclick="genderClicked();"/>
+      </form>
+
+
+<script  src="../BasicHTML/form.js"></script>
+
+
+</body>
+
+</html>
